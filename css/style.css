@@ -6,7 +6,7 @@
 
 /* BODY */
 body{
-    background-color: lightgrey;
+    background-color: #f6f8f9;
 }
 
 
@@ -24,4 +24,36 @@ body{
     vertical-align: middle;
     display: inline-block;
     font-size: 40px;
+}
+
+/* MAIN */
+#container{
+    width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+#button_div{
+    padding: 10px 0px 5px 50px;
+}
+
+#task_button{
+    background-color: #47adf1;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #47adf1;
+}
+
+#section_button{
+    background-color: white;
+    color: grey;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid grey;
+}
+
+#row{
+    border: 2px solid #f6f8f9;
 }
