@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* BODY */
 body{
     background-color: #f6f8f9;
@@ -27,6 +28,7 @@ body{
     font-size: 40px;
 }
 
+
 /* MAIN */
 #container{
     width: 1000px;
@@ -35,26 +37,32 @@ body{
     background-color: white;
 }
 
+
 /* BUTTON SECTION */
 #button_div{
     padding: 20px 0px 10px 50px;
 }
 
-#task_button{
-    background-color: #47adf1;
-    color: white;
+.button{
+    font-size: 12px;
+    font-weight: bold;
     border-radius: 5px;
-    padding: 10px 20px;
-    border: 1px solid #47adf1;
+    padding: 8px 20px;
+    border: 1px solid;
 }
 
-#section_button{
+#task{
+    background-color: #47adf1;
+    color: white;
+    border-color: #47adf1;
+}
+
+#section{
     background-color: white;
     color: grey;
-    border-radius: 5px;
-    padding: 10px 20px;
-    border: 1px solid grey;
+    border-color: grey;
 }
+
 
 /* LIST SECTION */
 #row{
@@ -67,12 +75,33 @@ body{
 
 ul{
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+li{
+    margin-bottom: 20px;
 }
 
 .down_row{
     vertical-align: middle;
     font-size: 15px;
+}
+
+.symbol{
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 2px 4px;
+    border: 1px solid;
+}
+
+.checkmark{
+    color: #98d8ca;
+    border-color: #98d8ca;
+}
+
+.x{
+    color: red;
+    border-color: red;
 }
 
 .highlighted{
