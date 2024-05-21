@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* BODY */
+body{
+    background-color: lightgrey;
+}
+
+
+/* HEADER */
+#header_div{
+    padding: 10px 10px;
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#title{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 40px;
+}
